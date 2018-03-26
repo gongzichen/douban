@@ -1,0 +1,8 @@
+<import src="../home/star/star.wxml"/>
+<view>
+  <text>{{detail.title}}</text>
+  <view></view>
+  <image src='{{detail.images.large}}'></image>
+  <view></view>
+  <text>{{detail.summary}}</text>
+</view>

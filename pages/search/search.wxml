@@ -1,0 +1,11 @@
+<!--pages/search/search.wxml-->
+<view class="search-box">
+  <icon wx:if='{{isIcon !== false}}' class="search-icon" type="search"></icon>
+  <input bindinput="bingchange" type="search" bindblur="getBlur" bindfocus="getFocus" class="search-name">
+  </input>
+</view>
+  <block wx:for="{{detail}}">
+    <view class="search-detail" toD>
+       <text>{{item.original_title}}</text>  
+    </view>
+  </block>

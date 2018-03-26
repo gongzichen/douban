@@ -1,0 +1,4 @@
+@import 'search/search.wxss';
+@import 'movie-list/movie-list.wxss';
+@import 'movie-item/movie-item.wxss';
+@import 'star/star.wxss';

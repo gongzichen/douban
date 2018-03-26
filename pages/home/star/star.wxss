@@ -1,0 +1,12 @@
+.star{
+    display: flex;
+    flex-direction: row;
+}
+.star image{
+    width: 17rpx;
+    height:17rpx;
+}
+.star-average{
+    margin-left: 15rpx;
+    font-size: 17rpx;
+}

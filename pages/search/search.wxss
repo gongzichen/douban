@@ -1,0 +1,33 @@
+/* pages/search/search.wxss */
+.search-box {
+  /* width: 100%; */
+  widows: 750rpx;
+  height: 75rpx;
+  background: #41be58;
+  padding: 10rpx 20rpx;
+  position: relative;
+}
+.search-icon {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -25rpx;
+  margin-top: -30rpx;
+  z-index: 99;
+  width: 50rpx;
+  height: 50rpx;
+}
+.search-name {
+  border: 1px solid #fff;
+  border-radius: 15rpx;
+  background: #fff;
+  padding: 0 10px;
+}
+
+.search-detail {
+  padding: 0 15rpx;
+  width: 750rpx;
+  line-height: 70rpx;
+  background: #fff;
+  border-bottom: 1px solid silver;
+}

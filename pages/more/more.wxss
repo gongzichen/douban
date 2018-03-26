@@ -1,0 +1,10 @@
+@import '../home/search/search.wxss';
+@import '../home/movie-item/movie-item.wxss';
+@import '../home/star/star.wxss';
+.detail-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 648rpx;
+    margin: 40rpx 43rpx 0 59rpx;
+}
